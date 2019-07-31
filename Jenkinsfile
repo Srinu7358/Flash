@@ -12,7 +12,7 @@ sh  'mvn clean package'
      
    
 		
-bat '"copy C:\\Users\\GATEWAY\\.jenkins\\workspace\\DroovyDeployement\\target\\*.war" "C:\\Program Files\\Apache Software Foundation\\Tomcat 8.5\\webapps\\"'
+bat '"copy C:\\Users\\GATEWAY\\.jenkins\\workspace\\DroovyDeployement\\target\\JenkinsWar.war C:\\Program Files\\Apache Software Foundation\\Tomcat 8.5\\webapps\\"'
 }
 
 }

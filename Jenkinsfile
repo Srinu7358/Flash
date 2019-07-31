@@ -16,7 +16,7 @@ sh  'mvn clean package'
 	
 			script{
 		
-sh "copy /var/lib/jenkins/workspace/GroovyDeployement/target/JenkinsWar.war" "/var/lib/tomcat8/webapps"
+bat '"copy C:\\Users\\GATEWAY\\.jenkins\\workspace\\TomcatDeployement\\target\\*.war" "C:\\Program Files\\Apache Software Foundation\\Tomcat 8.5\\webapps\\"'
 }
 }
 }

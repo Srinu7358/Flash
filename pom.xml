@@ -21,8 +21,7 @@
   <scope>provided</scope>
 </dependency>
   </dependencies>
-  <build>
-     <distributionManagement>
+  <distributionManagement>
 
            <repository>
 
@@ -35,7 +34,7 @@
            </repository>
 
      </distributionManagement>
-
+  <build>
   <pluginManagement>
     <plugins>
       <plugin>

@@ -21,18 +21,20 @@
   <scope>provided</scope>
 </dependency>
   </dependencies>
-  <distributionManagement>
-    <repository>
-        <id>central</id>
-        <name>ADMIN-releases</name>
-        <url>http://localhost:8081/artifactory/cal.ms.com_CI_Builds1</url>
-    </repository>
-    <snapshotRepository>
-        <id>snapshots</id>
-        <name>ADMIN-snapshots</name>
-        <url>http://localhost:8081/artifactory/cal.ms.com_CI_Builds1</url>
-    </snapshotRepository>
-</distributionManagement>
+   <distributionManagement>
+
+           <repository>
+
+                <id>artifactory</id>
+
+                <name>cal.ms.com_CI_Builds1</name>
+
+           <url>http://localhost:8081/artifactory/cal.ms.com_CI_Builds1</url>
+
+           </repository>
+
+     </distributionManagement>
+
   <build>
   <pluginManagement>
     <plugins>

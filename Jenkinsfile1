@@ -3,7 +3,7 @@ node{
 
 stage('SCM'){
 //git clone
-git 'https://github.com/Srinu7358/Flash.git'
+git 'https://github.com/Srinu7358/spring-petclinic-1.git'
 
 }
 stage('build the package'){
